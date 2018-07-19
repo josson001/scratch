@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta name="viewport"
+		  content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta charset="UTF-8"/>
+	<title>刮刮乐</title>
+    <link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="js/flexible.js"></script>
+
+</head>
+<body>
+	<div class="scratch-card">
+       <div class="win-result">谢谢惠顾</div>
+       <canvas id="can" width="360" height="360"></canvas>
+    </div>
+       <script src="js/Scratch.js"></script>
+       <script>
+       		var scratchCards = document.querySelector(".scratch-card");
+       		new name1({
+       			el:scratchCards,//顶层元素
+       		    imgUrl:"image/share_S.png"
+       		});
+       </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+/*
+* @Author: ww
+* @Date:   2018-06-13 11:45:43
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 13:37:29
+*/
+@import "public.scss";
+@function rem($n){
+	@return  $n/2/37.5; 
+}
+.scratch-card{
+  margin-top: 50px;
+  position: relative;
+  .win-result{
+    width: 360px;
+    height: 360px;
+    text-align: center;
+    line-height: 360px;
+    font-size:50px;
+  }
+  #can{
+    border:1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -180px;
+
+  }
+}
+
+

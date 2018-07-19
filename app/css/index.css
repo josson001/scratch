@@ -1,0 +1,36 @@
+/*
+* @Author: ww
+* @Date:   2018-06-13 11:45:43
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 13:37:29
+*/
+/*
+* @Author: ww
+* @Date:   2018-06-14 10:21:33
+* @Last Modified by:   ww
+* @Last Modified time: 2018-07-19 13:37:43
+*/
+body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f6eee8;
+  overflow: auto; }
+
+.scratch-card {
+  margin-top: 50px;
+  position: relative; }
+  .scratch-card .win-result {
+    width: 360px;
+    height: 360px;
+    text-align: center;
+    line-height: 360px;
+    font-size: 50px; }
+  .scratch-card #can {
+    border: 1px solid red;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -180px; }
