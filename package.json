@@ -1,9 +1,9 @@
 {
-  "name": "rotaryTable",
+  "name": "Scratch",
   "version": "1.0.0",
-  "description": "大转盘抽奖",
-  "main": "index.js",
-  "repository": "https://github.com/josson001/lucky_wheel.git",
+  "description": "刮刮乐",
+  "main": "Scratch.js",
+  "repository": "https://github.com/josson001/scratch.git",
   "author": "josson001",
   "license": "MIT",
   "dependencies": {
